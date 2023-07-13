@@ -1,5 +1,9 @@
 # mobx-reactive2015-demo
 
+[Original repository](https://github.com/mobxjs/mobx-reactive2015-demo.git)
+
+[MST-based example history](https://github.com/mobxjs/mobx-state-tree/tree/master/packages/mst-example-boxes). This repo was pulled from [this commit](https://github.com/mobxjs/mobx-state-tree/commit/9fb09972b5836a72cec851c737bf7345dafcef7b) and augmented
+
 Demo of MobX (formerly called Mobservable) on [ReactiveConf](https://www.youtube.com/watch?v=FEwLwiizlk0)
 
 Simple drag & drop editor that uses [mobx](https://github.com/mweststrate/mobx) and React.
@@ -18,5 +22,5 @@ To interact with the application:
 ```
 yarn
 yarn start
-open http://localhost4000
+open http://localhost:4000 # This used to be localhost:5000, but [that no longer works on Mac OS](https://stackoverflow.com/a/71634378)
 ```
