@@ -17,7 +17,7 @@ To interact with the application:
 - CTRL + click to add new boxes. If there is an active selection an arrow will be added as well.
 - use the tiny buttons in the bottom left to generate a bunch of random boxes and arrows, and to travel forward and backward in time.
 
-### Run the example
+### Run the example (requires Node v16, does not work on Node v18 or v20)
 
 ```
 yarn
